@@ -1,6 +1,2 @@
 ---
-apt::sources:
- 'localRepo':
-   location: 'https://repo.example.com/debians'
-   release: '%{::lsbdistcodename}'
-   repos: 'main contrib non-freeeeee'
+
