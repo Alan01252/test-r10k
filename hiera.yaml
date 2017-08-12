@@ -4,11 +4,11 @@
   - json
 :yaml:
   #  :datadir: "/etc/puppetlabs/code/environments/%{::environment}/hieradata"
-     :datadir: "hieradata"
+     :datadir: "./hieradata"
 :json:
   # :datadir: "/etc/puppetlabs/code/environments/%{::environment}/hieradata"
   #
-    :datadir: "hieradata"
+    :datadir: "./hieradata"
 :hierarchy:
   - "nodes/%{::trusted.certname}"
   - "virtual/%{::virtual}"
