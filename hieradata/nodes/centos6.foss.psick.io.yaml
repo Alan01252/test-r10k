@@ -1,0 +1,6 @@
+---
+apt::sources:
+ 'localRepo':
+   location: 'https://repo.example.com/debian'
+   release: '%{::lsbdistcodename}'
+   repos: 'main contrib non-free'
