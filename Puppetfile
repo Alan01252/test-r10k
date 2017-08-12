@@ -1,7 +1,5 @@
-mod "apt",
-  :git => "git://github.com/puppetlabs/puppetlabs-apt.git"
+mod "puppetlabs/apt"
 
-mod "stdlib",
-  :git => "git://github.com/puppetlabs/puppetlabs-stdlib.git"
+mod "puppetlabs/stdlib"
 
 mod "puppetlabs/ntp"
